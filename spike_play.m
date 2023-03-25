@@ -142,6 +142,6 @@ title('dt = ',num2str(dt), 'FontSize', 20)
 set(gca, 'FontSize', 15)
 
 
-%save('firing_rate_data.mat', 'y', 'y_avg', 'time', 'T', 'clust_store', 'dt', 'num_neurons', 'num_groups')
+save('firing_rate_data.mat', 'y', 'y_avg', 'time', 'T', 'clust_store', 'dt', 'num_neurons', 'num_groups')
 
 
